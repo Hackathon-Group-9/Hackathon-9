@@ -1,0 +1,20 @@
+{
+  "model_used": "Logistic_Regression",
+  "shap_explainer_type": "LinearExplainer",
+  "total_features": 68,
+  "top_positive_features": [
+    "numeric__opinion_seas_risk",
+    "numeric__doctor_recc_seasonal",
+    "categorical__age_group_18 - 34 Years",
+    "numeric__health_worker",
+    "numeric__flu_knowledge"
+  ],
+  "top_negative_features": [
+    "numeric__opinion_seas_vacc_effective",
+    "categorical__age_group_65+ Years",
+    "numeric__opinion_seas_sick_from_vacc",
+    "numeric__household_children",
+    "categorical__employment_sector_media"
+  ],
+  "shap_calculation_time": "Completed"
+}

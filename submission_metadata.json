@@ -1,0 +1,61 @@
+{
+  "submission_instructions": {
+    "email_to": "p.carrilho@herts.ac.uk",
+    "deadline": "16:00 today",
+    "files_to_submit": [
+      "challenge_submission_group9_order_1.csv",
+      "challenge_submission_group9_order_2.csv",
+      "challenge_submission_group9_order_3.csv",
+      "challenge_submission_group9_order_4.csv",
+      "challenge_submission_group9_order_5.csv"
+    ],
+    "group_number": 9
+  },
+  "competition_info": {
+    "target_variable": "seasonal_vaccine",
+    "primary_metric": "f1",
+    "random_state": 42
+  },
+  "best_model": {
+    "name": "Logistic_Regression",
+    "cv_f1_score": 0.7971362716989832,
+    "optimal_threshold": 0.44285714285714284
+  },
+  "submissions": [
+    {
+      "rank": 1,
+      "model": "Logistic_Regression",
+      "cv_f1_score": 0.7971362716989832,
+      "filename": "challenge_submission_group9_order_1.csv",
+      "threshold_used": 0.44285714285714284
+    },
+    {
+      "rank": 2,
+      "model": "XGBoost",
+      "cv_f1_score": 0.7969278805504946,
+      "filename": "challenge_submission_group9_order_2.csv",
+      "threshold_used": 0.5
+    },
+    {
+      "rank": 3,
+      "model": "Gradient_Boosting",
+      "cv_f1_score": 0.7961202579142181,
+      "filename": "challenge_submission_group9_order_3.csv",
+      "threshold_used": 0.5
+    },
+    {
+      "rank": 4,
+      "model": "LightGBM",
+      "cv_f1_score": 0.794970943812803,
+      "filename": "challenge_submission_group9_order_4.csv",
+      "threshold_used": 0.5
+    },
+    {
+      "rank": 5,
+      "model": "HistGradient_Boosting",
+      "cv_f1_score": 0.7927448485958912,
+      "filename": "challenge_submission_group9_order_5.csv",
+      "threshold_used": 0.5
+    }
+  ]
+}
